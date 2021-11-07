@@ -22,7 +22,7 @@ const Cart = () => {
       <VStack spacing={3} alignItems='flex-start'>
         <Heading size='2xl'>Your cart</Heading>
         <Text>If the price is too hard on your eyes,{' '}
-          <Button onClick={toggleColorMode} variant='link' colorScheme='black'>
+          <Button onClick={toggleColorMode} variant='link' colorScheme='brand'>
             try changing the theme.
           </Button>
         </Text>
