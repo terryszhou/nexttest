@@ -9,15 +9,16 @@ import {
   Input,
   Select,
   Checkbox,
-  Button } from '@chakra-ui/react'
+  Button,
+} from '@chakra-ui/react'
 
 const Details = () => (
-  <VStack w='full' h='full' p={10} spacing={10} alignItems='flex-start'bg='gray.50'>
+  <VStack w='full' h='full' p={10} spacing={10} alignItems='flex-start' bg='white'>
     <VStack spacing={3} alignItems='flex-start'>
       <Heading size='2xl' color='black'>Your details</Heading>
       <Text color='black'>If you already have an account, click here to log in</Text>
     </VStack>
-    <SimpleGrid columns={2} columnGap={3} rowGap={6} w='full' color='black'>
+    <SimpleGrid columns={2} columnGap={3} rowGap={6} w='full'>
       <GridItem colSpan={1}>
         <FormControl>
           <FormLabel>First Name</FormLabel>
